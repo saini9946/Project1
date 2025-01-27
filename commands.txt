@@ -1,0 +1,26 @@
+GIT Commands Ref-
+1> git init (initializing a local folder to git folder)
+2> git config --global user.name "your name" 
+3> git config --global user.email "your email"
+4> git add . (adding all untracked files to staging area)
+5> git commit -m "any message" (saving the project to local git repo)
+6> git status (check the current status of git folder)
+7> git log ( shows all commits that has been done before)
+8> git checkout <commit-ref> (to checkout the code of any particular commit)
+9> git diif (diff in staging are code and working tree)
+10> git rm <file-name> ( removing files from working tree as well as staging area)
+11> git rm --cached <file-name> (remove file from working tree but not from staging area)
+12> git branch (show current branch)
+13> git branch <branch-name> (creating new branch)
+14> git checkout <branch-name> (switching branches)
+ 
+ 
+-Steps of Pulling and Pushing in a brach-
+step1 > some changes done by me
+step2 > add those changes(git add .)
+step3> commit the changes (git commit -m "message")
+step4> git pull origin <branch-name> (pulling the latest code from remote)
+step5> resolve conflict if same file modified by me and the other team member
+step6> as per need either accept only your change,or accept only other team member change code or accept both and merge
+step7> add the code to staging area and commit and push
+(git add .,git commit -m "message",git push origin <branch-name>)
